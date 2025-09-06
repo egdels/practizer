@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practizer — Website</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; margin: 0; padding: 0; line-height: 1.5; }
+    header { text-align: center; padding: 28px 16px 8px; }
+    .logo { width: 160px; height: 160px; }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 16px 40px; }
+    h1 { text-align: center; margin-top: 8px; }
+    .lang-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 16px; }
+    .card { border: 1px solid rgba(127,127,127,.3); border-radius: 12px; padding: 16px; text-decoration: none; color: inherit; }
+    .card:hover { border-color: rgba(64,64,64,.6); box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    .card h2 { margin: 0 0 8px 0; font-size: 1.15rem; }
+    footer { text-align: center; font-size: .95rem; color: gray; padding: 24px; }
+    .links a { margin: 0 .5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="../packaging/practizer_256x256.png" alt="Practizer Logo">
+    <h1>Practizer</h1>
+  </header>
+  <div class="container">
+    <p style="text-align:center; margin-top:0;">
+      Cross‑platform music practice app: load an audio file, change tempo and pitch independently, loop segments, add markers, and practice efficiently.
+    </p>
+    <div class="lang-cards">
+      <a class="card" href="./en/">
+        <h2>English</h2>
+        <p>Open the English page with an overview, features, and links.</p>
+      </a>
+      <a class="card" href="./de/">
+        <h2>Deutsch</h2>
+        <p>Zur deutschen Seite mit Überblick, Funktionen und Links.</p>
+      </a>
+    </div>
+    <p class="links" style="text-align:center; margin-top:24px;">
+      <a href="../README.md">README</a>
+      • <a href="../docs/Benutzerhandbuch_DE.md">Benutzerhandbuch (DE)</a>
+      • <a href="https://openjfx.io" target="_blank" rel="noopener">JavaFX</a>
+    </p>
+  </div>
+  <footer>
+    <div>© Practizer — JavaFX + Dagger + SoundTouch</div>
+  </footer>
+</body>
+</html>
