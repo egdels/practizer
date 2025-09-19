@@ -17,6 +17,16 @@ Tech stack: **Java 21, JavaFX, Dagger 2, Gradle, SoundTouch (JNI)**.
 > ```  
 > A static fallback exists at `src/main/resources/licenses/THIRD_PARTY_NOTICES.txt`.
 
+
+---
+
+## ❤️ Support this project
+**Practizer** is free and open source.
+If you find it useful, please consider supporting development:
+
+[![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-orange)](https://ko-fi.com/egdels)
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue)](https://www.paypal.com/paypalme/egdels)
+
 ---
 
 ## Build & run
